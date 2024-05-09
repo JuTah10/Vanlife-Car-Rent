@@ -1,0 +1,33 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    gap:20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-bar .option{
+    display:flex;
+    gap:20px;
+}
+.nav-bar  .logo{
+    font-size: 50px;
+    font-weight: 700;
+}
+.nav-bar .option a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-bar  a:hover{
+    border-bottom:black 1px solid;
+}
+
+@media (max-width:800px){
+    .nav-bar,.nav-bar .option{
+        flex-direction: column;
+    }
+    
+}

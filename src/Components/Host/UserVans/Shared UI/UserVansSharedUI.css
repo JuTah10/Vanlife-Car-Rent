@@ -1,0 +1,18 @@
+.UserVansSharedUI-content-container{
+    display:flex;
+    margin-bottom:30px;
+}
+.UserVansSharedUI-content-container img{
+    max-width:300px;
+    border-radius:5px;
+    margin-right: 20px;
+}
+.UserVansDetails-container-description{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.UserVansDetails-container-name{
+    font-size: 40px;
+    font-weight: 700;
+}

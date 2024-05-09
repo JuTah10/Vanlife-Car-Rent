@@ -1,0 +1,7 @@
+.UserVansDetailsPage-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 200px;
+}
+

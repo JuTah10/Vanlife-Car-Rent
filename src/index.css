@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+.isActive{
+  font-weight: 700;
+  border-bottom:solid black 1px;
+  color: brown;
+}
+
+.type{
+  color:white;
+  max-width: 80px;
+  padding: 10px;
+  border-radius:5px;
+  text-align: center;
+  font-weight: 600
+}
+.simple{
+  background-color: #FF8C38;
+}
+.rugged{
+  background-color: #115E59;
+}
+.luxury{
+  background-color: #161616;
+}

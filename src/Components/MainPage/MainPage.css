@@ -1,0 +1,53 @@
+
+.main-page{
+    text-align: center;
+    color:white
+    
+}
+.main-page .main-main{
+    background-image: url("./main-background.png");
+    background-size: cover;
+    padding: 200px 50px 50px 50px;
+    height: 600px;
+}
+.main-page .first-half{
+    font-weight: 800;
+    font-size:50px;
+    line-height: 42px;
+    margin-bottom: 60px;
+}
+.main-page .second-half{
+    font-weight: 500;
+    font-size:25px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.main-page button{
+    background-color: #FF8C38;
+  
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+}
+.main-page button a{
+    color:white;
+    font-size: 30px;
+    font-family:Inter;
+    font-weight: 700;
+    line-height: 31.66px;
+    text-decoration: none;
+}
+
+@media (max-width:800px){
+    .main-page .first-half{
+        font-size:40px;
+    }
+    .main-page .second-half,
+    .main-page button a,
+    .main-page footer{
+        font-size:15px;
+    }
+    
+}

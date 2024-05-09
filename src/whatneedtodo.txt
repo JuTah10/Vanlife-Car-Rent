@@ -1,0 +1,2 @@
+-adjust the 404 page
+-some pages still need to make responsive

@@ -1,0 +1,6 @@
+.UserVansNav-container{
+    display:flex;
+    margin:30px 50px;
+    justify-content: space-between;
+    max-width: 500px;
+}

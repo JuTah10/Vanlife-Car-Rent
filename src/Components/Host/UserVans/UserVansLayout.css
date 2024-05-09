@@ -1,0 +1,22 @@
+.UserVansLayout-page-container{
+    max-width: 90%;
+    margin: auto;
+    margin-block:50px;
+}
+
+.UserVansLayout-page{
+    background-color: #FFF7ED;
+    border-radius: 6px;
+    padding:25px;
+    margin-top: 30px;
+}
+
+
+.back-to-all-vans-container{
+    display:flex;
+    align-items: center;
+}
+.back-to-all-vans{
+    border-bottom: solid black 1px;
+    margin-left:5px;
+}
