@@ -2,7 +2,7 @@
 export default function Dashboard(){
     return(
           <div className="host-dashboard-page">
-                <div className="dashboard-welcome-section">
+                {/* <div className="dashboard-welcome-section">
                     <div className="welcome-text">Welcome</div>
                     <div className="income-last-30days">
                         <div className="30days-text">Income last <strong>30 days</strong></div>
@@ -27,7 +27,8 @@ export default function Dashboard(){
                         <div>2</div>
                         <div>3</div>
                     </div>
-                </div>
+                </div> */}
+                <div>This is the dashboard page</div>
           </div>
     );
 }
